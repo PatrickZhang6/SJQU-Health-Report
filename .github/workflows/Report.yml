@@ -2,9 +2,9 @@ name: SJQU-Health-Report
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "00 12 * * *"
-    - cron: "30 12 * * *"
+#   schedule:
+#     - cron: "00 12 * * *"
+#     - cron: "30 12 * * *"
 
 jobs:
   build:
