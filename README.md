@@ -19,6 +19,8 @@
 GenchAPI.sign(os.environ.get('username') , os.environ.get('password'))
 # 传参数0代表不在校
 GenchAPI.sign(os.environ.get('username') , os.environ.get('password'), 0)
+# 自定义地区
+GenchAPI.sign(os.environ.get('username') , os.environ.get('password'), 0, "四川省", "成都市", "金牛区")
 ```
 
 ## 感谢
